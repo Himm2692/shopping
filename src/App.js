@@ -9,14 +9,14 @@ import AddCart from './component/AddCart';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <BrowserRouter basename = "/shopping">
       <Navbar/>
       <Routes>
-      <Route path = "/shopping" element = {<Home/>}/>
+      <Route exact path = "/" element = {<Home/>}/>
       <Route path = "/product/:productId" element = {<ProductDetails/>}/>
       <Route path = "/addCart" element = {<AddCart/>}/>
       </Routes>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }
