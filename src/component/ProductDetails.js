@@ -28,7 +28,7 @@ const ProductDetails = () => {
     <div className="container">
     <div className="row" >
    <div className="col-md-6">
-    <img src={image} alt ={title} width="400px" height="400px"/>
+    <img src={image} alt ={title} width="370px" height="370px"/>
    </div>
    <div className="col-md-6">
       <h4 className="text-uppercase text-black-50">{category}</h4>
