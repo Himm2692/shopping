@@ -3,6 +3,9 @@ import { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { setProduct } from '../action/index'
 import { Link } from 'react-router-dom'
+import image1 from './images/image1.jpg'
+import image2 from  './images/image2.jpg'
+import image3 from './images/image3.jpg'
 
 const Home = () => {
   const products = useSelector((state) => state.productReducer.products)
@@ -30,18 +33,18 @@ const Home = () => {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="https://theshoppingaround.com/wp-content/uploads/2021/08/Shopping.jpg" class="d-block w-100" alt="shopping photo"  height="500px"/>
+      <img src= {image1} class="d-block w-100" alt="shopping photo"  height="500px"/>
       <div class="carousel-caption d-none d-md-block">
         <h2>Shopping </h2>
-        <p>Buy new new products and enjoy to add to cart</p>
+        <p>Buy new new products and enjoy </p>
       </div>
       
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="https://digiwits.co/assets/uploads/2020/06/Open-an-online-store.jpg" class="d-block w-100" alt="electronics photo" height="500px"/>
+      <img src={image2} class="d-block w-100" alt="electronics photo" height="500px"/>
     </div>
     <div class="carousel-item">
-      <img src="https://1.bp.blogspot.com/-d3naBjwfrSE/VHVRNle-CLI/AAAAAAAAACo/2ADzqat6xR4/s1600/shopping-cart-1920.jpg" class="d-block w-100" alt="Add to cart photo" height="500px"/>
+      <img src={image3} class="d-block w-100" alt="Add to cart photo" height="500px"/>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
