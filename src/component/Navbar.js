@@ -19,6 +19,8 @@ const Navbar = () => {
         <li className="nav-item">
           <Link className="nav-link" to="/addCart">Cart({cart.length})</Link>
         </li>
+        <Link className="btn btn-primary mx-2 navbar-login" to="/login" role="button">Login</Link>
+        <Link className="btn btn-primary mx-2 navbar-signup" to="/signup" role="button">Sign up</Link>
        </ul>
          
     </div>

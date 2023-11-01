@@ -1,0 +1,87 @@
+
+.home-container{
+    background-color: antiquewhite;
+    padding: 50px;
+}
+/* -----------Login----------------- */
+.login-page{
+    display: flex ;
+    background-image: url('./images/image1.jpg');
+    height: 92vh;
+
+}
+.login-title{
+    margin-top: 40px;
+}
+
+.login-container{
+    display: grid;
+    justify-content: center;
+    width: 50vw;
+    height: 70vh;
+    padding: 50px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 50px;
+    background: linear-gradient(#97976f, #db9f30);
+}
+.login-button{
+    background-color: rgb(176, 43, 43);
+    border-radius: 17px;
+    width: 70px;
+    color: white;
+    margin-top: 10px;
+}
+.input-size{
+    width: 300px;
+    border-radius: 15px;
+}
+.login-signup{
+    text-decoration: none;
+    font: bolder;
+}
+
+.navbar-login{
+    height: 30px;
+    padding: 8px;
+    display: flex;
+    margin-top: 5px;
+    place-items: center;
+    background-color: rgb(41, 0, 246);
+    
+}
+
+/* ------------------Signup -------------------- */
+.signup-title{
+    margin-top: 10px;
+}
+.signup-page{
+    display: flex ;
+    background-image: url('./images/image1.jpg');
+    height: 92vh;
+
+}
+.signup-container{
+    display: grid;
+    justify-content: center;
+    width: 50vw;
+    height: 80vh;
+    padding: 50px;
+    margin: auto;
+    border-radius: 50px;
+    background: linear-gradient(#97976f, #db9f30);
+}
+.signup-button{
+    background-color: rgb(176, 43, 43);
+    border-radius: 17px;
+    margin-top: 10px;
+}
+.navbar-signup{
+    height: 30px;
+    padding: 7px;
+    display: flex;
+    margin-top: 5px;
+    place-items: center;
+    background-color: rgb(0, 209, 59);
+    
+}
